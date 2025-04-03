@@ -1,0 +1,72 @@
+ /* calendar.css
+.react-calendar {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    display: inline-block;
+  } */
+ /* 
+  .react-calendar__tile {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .react-calendar__tile--active {
+    background: #007bff;
+    color: white;
+  }
+  
+  .react-calendar__tile:hover {
+    background: #f0f0f0;
+  }
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: red;
+  }*/
+ .custom-calendar .react-calendar__month-view__weekdays {
+    margin-right: 90px;
+    display: inline;
+} 
+ 
+
+  .calendar-container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-left: 0;
+  } 
+
+.profile_circle{
+width: 80px;
+height: 80px;
+border-radius: 100%;
+
+background: #C4C4C4;
+
+  }
+  .profile{
+    display: flex;
+    
+  }
+  .portfolio{
+    margin: 10px;
+    border:1px solid #C4C4C4;
+  }
+  @media (max-width:"700px"){
+    .calendar-container{
+      
+      height: 728px;
+      top: 365px;
+      left: -8px;
+      margin-left: -120px;
+      width: 450px;
+    }
+  }

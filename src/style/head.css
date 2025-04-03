@@ -1,0 +1,75 @@
+.head {
+    position: fixed;
+    top: 0;
+    left: 200px; 
+    width: 1140px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 20px;
+    z-index: 1000;
+    transition: left 0.3s ease;
+    margin-left: -50px;
+}
+
+
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 700px;
+    
+}
+
+.user_dropdown {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.user_avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.user_select {
+    border: none;
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.threebar{
+    display: none;
+    position: absolute;
+}
+.threebar{
+    width: 24;
+height: 24;
+margin-left: -40px;
+}
+.threebar button{
+    margin-left: -230px;
+}
+
+@media (max-width: 700px) {
+    .threebar{
+    width: 24px;
+    height: 24px;
+    margin-left: -40px;
+    display: block;
+    position: absolute;
+    }
+    .threebar button{
+        margin-left: -230px;
+    }
+    .search{
+        width: 30px;
+    }
+    .head .info{
+        margin-left: -70px;
+    }
+}

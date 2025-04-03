@@ -1,0 +1,127 @@
+.tb_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.tb_head h2{
+    margin-bottom: 20px;
+}
+.tb_head div{
+    margin-left: 300px;
+}
+.plusbtn {
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 150px;
+    height: 50px;
+    
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.EmployeeTable{
+    max-width: 1140px;
+}
+.table-search{
+    display: flex;
+    max-width: 1140px;
+    height: 30px;
+}
+.plus-sign {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+}
+.styled-table {
+    width: 100%; /* Ensures the table takes up full width */
+    max-width: none; /* Remove any width restrictions */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%; /* Make the table container full-width */
+    max-width: none; /* Remove max-width restriction */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+.styled-table th, .styled-table td {
+    
+    padding: 10px;
+    text-align: left;
+}
+
+.styled-table th select{
+    background-color: #f4f4f4;
+    width: 100px;
+    border-radius: 10px;
+}
+/* .table{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+} */
+.table-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    height: 70px;
+}
+.table-search .search{
+    margin-top: 20px;
+    margin-right: 20px;
+   
+}
+.table-search .h4{
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.table-container{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 20px;
+    max-width: 1140px;
+    width: 1140px;
+}
+.boxes{
+    display: flex;
+    width: 1140px;
+}
+.Threebox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.box .Threebox div{
+    padding: 20px;
+    border-radius: 20px;
+}
+.Threebox div h3{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+
+}

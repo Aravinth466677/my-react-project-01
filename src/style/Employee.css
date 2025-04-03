@@ -1,0 +1,48 @@
+.employee{
+    
+    margin-top: 70px;
+    margin-left: 20px;
+    
+}
+.emp_body{
+    display: flex;
+}
+.employee button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    border: none;
+    background-color: #f4f4f4;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+
+.employee button img {
+    width: 40px;
+    height: auto;
+   
+}
+.emp_body button h5{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 13px;
+line-height: 145%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
+
+.employee button:hover {
+    background-color: #ddd;
+}
+.EmployeeTable{
+    margin-top: 70px;
+    margin-left: 20px;
+    max-width:1140px ;
+}
+
