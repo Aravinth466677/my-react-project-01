@@ -41,6 +41,10 @@ height: 24;
     padding-top: 10px;
     width: 30px;
 }
+.ul li:hover{
+    color: red;
+
+}
 
 @media (max-width: 700px) {
     .sidebar {

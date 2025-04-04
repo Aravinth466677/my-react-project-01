@@ -2,6 +2,8 @@
   .Login_page{
     display: flex;
     max-width: 1440px;
+    width: 100%;
+    height: 770px;
   }
   .Login{
   background-color: #F6F6F6;
@@ -9,6 +11,32 @@
     width: 668px;
   height: 768px;
   
+    }
+    .logo_img{
+
+top: 100px;
+left: 100px;
+border-radius: 10px;
+
+    }
+    .signinto{
+      
+      font-weight: 700;
+      font-size: 62px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
+    }
+    
+    .login_form h2{
+      
+font-weight: 700;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
     }
   .logo_img{
     margin-top: 100px;
@@ -46,10 +74,17 @@
     padding: 10px 10px 10px 40px; 
     border: none;
     outline: none;
-    padding: 20px;
+    padding-top: 15px;
     /* margin-left: 20px; */
     font-size: 20px;
     padding-left: 65px;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
   }
   
   .input_icon {
@@ -61,12 +96,14 @@
   }
   .log_sign_btn{
     border: none;
-    background-color: red;
+    background-color: #E9374A;
     color: white;
     font-weight: 700;
-    padding: 12px 170px 12px 170px;
+    padding: 5px 170px 5px 170px;
     font-size: 20px;
     margin-top: 40px;
+    width: 440px;
+   
   }
   @media (max-width: 600px) {
 
@@ -86,12 +123,24 @@
     .login_form{
       margin-left: 50px;
     }
-    .login_form h1{
+    .signinto{
+      
+      font-weight: 700;
       font-size: 62px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
     }
+    
     .login_form h2{
-      margin-top: -20px;
-      font-size: 30px;
+      
+font-weight: 700;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+
     }
     .logo_img{
       margin-top: 50px;
@@ -107,6 +156,10 @@
     padding: 5px;
     width: 100%;
     margin-top: 30px;
+    width: 427px;
+    height: 38px;
+
+
   }
   
   .input_group input {

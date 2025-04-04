@@ -1,5 +1,5 @@
 import React from 'react'
-import ic_dashboard from '../../icons/ic_dashboard.png'
+import ic_dashboard from '../../icons/output-onlinepngtools.png'
 import Group_7 from '../../icons/Group 7.png'
 import Group from '../../icons/Group.png'
 import ic_department from '../../icons/ic_department.png'
@@ -13,7 +13,7 @@ const SideBar = () => {
   return (
     <div className='sidebar'style={{marginLeft:"0"}}>
         {/* <h1>WeHR</h1> */}
-        <ul>
+        <ul className='ul'>
             <li><img src={ic_dashboard} alt='ic_dashboard'></img><div><Link to="DB" className="text-decoration-none text-reset">Dashboard</Link></div></li>
             <li><img src={Group_7} alt='ic_dashboard'></img><div><Link to="employee" className="text-decoration-none text-reset">Employee</Link></div></li>
             <li><img src={Vector} alt='ic_dashboard'></img><div><Link to="attendance" className="text-decoration-none text-reset">Attendance</Link></div></li>

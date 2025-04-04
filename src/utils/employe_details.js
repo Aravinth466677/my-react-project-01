@@ -1,7 +1,7 @@
 export const emp_details=[{
     siNo:1001010,
     name:"aravinth",
-    joinDate:"11/11/11",
+    joinDate:"11/12/12",
     designation:"Software engineering",
     status:"Confirmation",
     option:"..."
@@ -15,14 +15,14 @@ export const emp_details=[{
 },{
     siNo:2200011,
     name:"dinesh",
-    joinDate:"12/12/12",
+    joinDate:"01/12/12",
     designation:"Software engineering",
     status:"Confirmation",
     option:"..."
 },{
     siNo:2200014,
     name:"dinesh",
-    joinDate:"12/12/12",
+    joinDate:"17/12/12",
     designation:"Software engineering",
     status:"Propation",
     option:"..."
@@ -57,7 +57,7 @@ export const emp_details=[{
 },{
     siNo:2200010,
     name:"dinesh",
-    joinDate:"12/12/12",
+    joinDate:"01/12/12",
     designation:"Software engineering",
     status:"Propation",
     option:"..."

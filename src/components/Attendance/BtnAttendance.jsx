@@ -1,8 +1,9 @@
 import React from 'react'
 import '../../style/Employee.css'
-import user_plus from '../../icons/user_plus_icon 1.png'
 import statistics from '../../icons/employee_job_seeker_statistic_unemployee_icon.png'
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons';
 const BtnAttendances = () => {
     const navigate = useNavigate();
   return (
@@ -11,7 +12,7 @@ const BtnAttendances = () => {
     <div className='emp_body'>
     <button onClick={() => navigate("/Body/attendance/leaverequest")}>  
 
-        <img src={user_plus} alt='user_plus_icon 1.png' ></img>
+    <FontAwesomeIcon icon={faUserPlus} style={{ color: "rgb(164, 164, 182)", fontSize: "40px" }} />
         <h5>Leave Request</h5>
     </button>
     <button onClick={() => navigate("/Body/attendance/attendancetable")}> 

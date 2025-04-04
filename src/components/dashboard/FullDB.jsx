@@ -7,7 +7,7 @@ const FullDB = () => {
   return (
     <div style={css} className='fulldb'>
         <div style={{width:"650px"}}><Dashboard /></div>
-        <div style={{marginLeft:"150px",marginTop:"80px"}}><CalendarDaysExample /></div>
+        <div style={{marginTop:"80px"} } className='fulldb_cal'><CalendarDaysExample /></div>
         
     </div>
   )

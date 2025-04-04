@@ -70,18 +70,19 @@ letter-spacing: 0%;
     display: flex;
     width: 700px;
   }
-  .announcement{
-    display: inline-block;
-    max-width: 680px;
-    margin-left: 40px;
+  .announcement {
+    display: block; /* Change from inline-block to block */
+    max-width: 700px;
+    margin-left: 2em !important; /* This should work now */
     margin-top: 40px;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, 
+                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     width: 650px;
     border-radius: 30px;
     padding: 20px;
-  }
+}
   div .announcement{
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .announce_title{
     margin-left: 20px;
@@ -131,6 +132,10 @@ margin-left: 40px;
   .calender{
     margin-top: 90px;
     margin-left: 30px;
+  }
+  .fulldb .fulldb_cal{
+    margin-left: 150px;
+
   }
   
   @media (max-width: 700px) {
@@ -186,5 +191,8 @@ letter-spacing: 0%;
   }
   .db_body{
     max-width: 500px;
+  }
+  .fulldb .fulldb_cal{
+    margin-left: 0;
   }
 }

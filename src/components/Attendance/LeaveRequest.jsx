@@ -71,7 +71,30 @@ const LeaveRequest = () => {
                                 <td style={{color:"#2F2F2F66"}}>{e.leaveType}</td>
                                 <td style={{color:"#2F2F2F66"}}>{e.reason}</td>
                                 <td style={{color:"#2F2F2F66"}}>{e.noDays}</td>
-                                <td style={{color:"#2F2F2F66"}}><select><option>Pending</option><option>Approved</option></select></td>
+                                <td style={{color:"#2F2F2F66"}}>    <div style={{
+      display: 'inline-flex',
+      alignItems: 'center',
+      backgroundColor: '#DFFFE0', // Light green background
+      color: '#228B22', // Dark green text
+      padding: '5px 12px',
+      borderRadius: '20px',
+      fontWeight: 'bold',
+      fontSize: '14px'
+    }}>
+      Approved
+      <span style={{
+        marginLeft: '5px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '18px',
+        height: '18px',
+        backgroundColor: '#228B22', 
+        borderRadius: '50%'
+      }}>
+        ✅ 
+      </span>
+    </div></td>
                                 <td style={{color:"#2F2F2F66"}}>...</td>
                             </tr>
                         ))}
